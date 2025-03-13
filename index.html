@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Oswald&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__wrapper-left">
+            <a class="header__logo" href="./index.html">
+                <img src="./image/tproger.png" alt="tproger.ru">
+                <span class="header__text-logo">
+                    <span class="header__text-logo-title">Tproger</span>
+                    <span class="header__text-logo-additional">всё о программировании</span>
+                </span>
+            </a>
+            <div class="header__search">
+                <input type="text" placeholder="Поиск">
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+        <div class="header__wrapper-right">
+            <a class="header__new-post" chref="#">
+                <p>Написать пост</p>
+            </a>
+            <a class="header__notification" href="#">
+                <i class="fa-solid fa-bell"></i>
+            </a>
+            <a class="header__user" href="#">
+                <i class="fa-solid fa-user"></i>
+                <span>Войти</span>
+            </a>
+        </div>
+    </header>
+    <nav class="navigation">
+        <div class="navigation__navigation-list">
+            <a href="#">
+                <i class="fa-solid fa-file-invoice"></i>
+                <span>Лента</span>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-fire"></i>
+                <span>Новости<sup>NEW</sup></span>
+                
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-volume-low"></i>
+                <span>Флудильня</span>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-brain"></i>
+                <span>Викторины</span>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-industry"></i>
+                <span>Компании</span>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-briefcase"></i>
+                <span>Вакансии</span>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-user-graduate"></i>
+                <span>Курсы</span>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-calendar-day"></i>
+                <span>События</span>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-book-atlas"></i>
+                <span>Языки</span>
+            </a>
+            <a href="#">
+                <i class="fa-regular fa-address-book"></i>
+                <span>Темы</span>
+            </a>
+        </div>
+        <div class="navigation__cell-info">
+            <a href="#">
+                <span>Заказать рекламу</span>
+            </a>
+            <a href="#">
+                <span>О нас</span>
+            </a>
+            <a href="#">
+                <span>Мы в Telegram</span>
+            </a>
+            <a href="#">
+                <span>Другие соц. сети</span>
+            </a>
+            <a href="#">
+                <span>Правила</span>
+            </a>
+            <a href="#">
+                <span>Ещё</span>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-bug"></i>
+                <span>Рассказать о баге</span>
+            </a>
+        </div>
+    </nav>
+    <main class="main">
+        <h1 class="main__title">Как работает CSS Flexbox: наглядное введение в систему компоновки элементов на веб-странице</h1>
+        <div class="main__author">
+            <img src="./image/avatar.webp" alt="Аватар">
+            <div class="main__author-info">
+                <a class="main__author-name">Марина Александровна</a>
+                <span class="main__author-date">14 дек 2020 • Отредактировано 22 мар 2024</span>
+            </div>
+        </div>
+        <p class="main__signature"><i>Задавались когда-нибудь вопросом, как работает CSS Flexbox? Наглядно объясняем возможности технологии с использованием анимации.</i></p>
+        <div class="main__actions">
+            <div class="main__elements-left">
+                <a href="#">
+                    <i class="fa-regular fa-heart"></i>
+                    <span>120</span>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-message"></i>
+                    <span>56</span>
+                </a>
+            </div>
+            <div class="main__elements-centr">
+                <span>2М открытий</span>
+                <span>2М показов</span>
+            </div>
+            <div class="main__elements-right">
+                <a href="#">
+                    <i class="fa-regular fa-bookmark"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-share-nodes"></i>
+                </a>
+            </div>
+        </div>
+        <div class="main__content">
+            <p class="main__paragraph">CSS Flexbox — это технология для создания сложных гибких макетов за счёт правильного размещения элементов на странице. О самой технологии пишут здесь. Мы же решили объяснить возможности CSS Flexbox с использованием гифок — настоящая flex шпаргалка.</p>
+            <ol class="main__list-types">
+                <li>
+                    <a href="#">display: flex</a>
+                </li>
+                <li>
+                    <a href="#">flex-direction</a>
+                </li>
+                <li>
+                    <a href="#">justify-content</a>
+                </li>
+                <li>
+                    <a href="#">align-items</a>
+                </li>
+                <li>
+                    <a href="#">align-self</a>
+                </li>
+                <li>
+                    <a href="#">flex-basis</a>
+                </li>
+                <li>
+                    <a href="#">flex-grow</a>
+                </li>
+                <li>
+                    <a href="#">flex-shrink</a>
+                </li>
+                <li>
+                    <a href="#">flex</a>
+                </li>
+                <li>
+                    <a href="#">Дополнительно</a>
+                </li>
+            </ol>
+        </div>
+    </main>
+    <aside class="aside">
+        <div class="aside__earnings">
+            <h2><i class="fa-solid fa-user-gear"></i> 150 000 - 230 000 ₽</h2>
+            <p>Столько зарабатывают Middle Java-разработчики. Читай статью, как настроить и использовать Jenkins для автоматизации процессов.</p>
+            <a href="#">Узнай, как увеличить доход ></a>
+        </div>
+        <div class="aside__article-subscriptions">
+            <h2><i class="fa-solid fa-envelope-open-text"></i> Лучшие статьи недели</h2>
+            <p>Не пропустите самые интересные и популярные статьи!</p>
+            <input type="text" placeholder="Указать почту">
+            <a href="#">
+                <button>Подписаться</button>
+            </a>
+            <span class="aside__privacy-policy">
+                Нажимая «Подписаться», вы принимаете
+                <a href="#">условия передачи данных</a>
+                и
+                <a href="#">политику конфиденциальности</a>
+                .
+            </span>
+        </div>
+        <div class="aside__flood-room">
+            <h2>Флудильня</h2>
+            <a href="#">
+                <i class="fa-solid fa-rocket"></i>
+                <span>6 промтов для ChatGPT, чтобы...</span>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-rocket"></i>
+                <span>утро в нашем заведении начинается...</span>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-rocket"></i>
+                <span>Видеонейронку от OpenAI слили в...</span>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-rocket"></i>
+                <span>ситуация сюр</span>
+            </a>
+            <a href="#">Все посты ></a>
+        </div>
+    </aside>
+</body>
+</html>
